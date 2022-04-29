@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<!-- Prima esercitazione all'interno delle lezioni del Fundamentals. Replicare una semplice pagina web con immagini, intestazioni, liste e una tabella. Il tutto con l'utilizzo di html. -->
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Produzione 2019</title>
+  </head>
+  <body>
+
+    <!-- Titolo principale del documento -->
+    <h1>Produzione 2019</h1> <hr>
+
+    <!-- Fondamentalmente la pagina si divide in due sezioni praticamente formattate alla stessa maniera. Per rendere più chiaro il tutto e poter fare un copia-incolla più delineato in corso d'opera (con possibilità di aggiungere altro in un possibile futuro) ho deciso di racchiudere tutti in un "div"  -->
+    <!-- Inizio Zucchine -->
+    <div>
+      <h4>Zucchine</h4>
+      <img src="https://galleria.riza.it/files/article/occhi-e-pelle-al-sicuro-con-le-zucchine.jpg" alt="zucchine" width="300" height="200">
+      <p>Coltivare in terreno molto ricco di materia organica e non coltivare dopo Solanacee o piante della stessa famiglia felle cucurbitacce</p>
+      <!-- Lista non ordinata -->
+      <ul>
+          <!-- Utilizzare il tag "strong" per il grassetto e non "b" perché risulta semanticamente più corretto in html5 -->
+          <li><strong>Varietà:</strong> Zucchina chiara di Faenza</li>
+          <li><strong>Periodo di Semina:</strong> Marzo/Aprile</li>
+          <li><strong>Primo Raccolto:</strong> Fine Aprile</li>
+          <li><strong>Ultimo Raccolto:</strong> Fine Luglio</li>
+          <!-- A differenza degli altri membri della lista questo contiene una tabella all'interno del tag "li", lo si può notare dal documento perché allineata con la scritta "Raccolto" -->
+          <li><strong>Raccolto:</strong>
+            <table>
+              <tr>
+                <td>Dimensione</td>
+                <td>Quantità</td>
+              </tr>
+              <tr>
+                <td>Piccole (10cm)</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>Medie (11-16cm)</td>
+                <td>26</td>
+              </tr>
+              <tr>
+                <td>Grandi (>16cm)</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>51</td>
+              </tr>
+            </table>
+          </li>
+      </ul>
+      <!-- Link al solo scopo di esempio -->
+      <a href="http://www.google.com"> -->acquista semi<-- </a>
+    </div>
+
+    <!-- Inizio Piselli -->
+    <div>
+      <h4>Piselli</h4>
+      <img src="https://www.greenme.it/wp-content/uploads/2017/05/piselli_cover.jpg" alt="piselli" width="300" height="200">
+      <p><strong>American Wonder:</strong> Varietà media Precoce come ciclo colturale.</p>
+      <p><strong>Consigli</strong></p>
+      <!-- Lista ordinata -->
+      <ol>
+        <li>
+          Piantare in semenzaio riscaldato.<br>
+          E' importante:
+          <!-- Lista non ordinata dentro la ordinata -->
+          <ul>
+            <li>
+              Acquistare vasetti biodegradabili (di cocco o cartone)
+            </li>
+            <li>
+              Mantenere areato il semenzaio per evitare muffe
+              <!-- Lista non ordinata dentro ad un'altra, a sua volta dentro una ordinata -->
+              <ul>
+                <li>Non usare il coperchio del semenzaio</li>
+                <li>Non usare mettere il semenzaio vicino al termosifone</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Fissare i sostegni nel terreno non appena le piantine raggiungono i 10cm</li>
+        <li>Acquistare una rete con spazi di non più di 10cm per garantire sostegni adeguati</li>
+      </ol>
+      <a href="http://www.google.com"> -->acquista semi<-- </a>
+    </div>
+
+  </body>
+</html>
